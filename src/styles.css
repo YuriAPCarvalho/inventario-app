@@ -1,0 +1,41 @@
+/* Estilos da Sidebar */
+#sidebar-wrapper {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.show-sidebar #sidebar-wrapper {
+  width: 150px;
+}
+
+.hide-sidebar #sidebar-wrapper {
+  width: 70px;
+}
+
+.hide-sidebar #page-content-wrapper {
+  width: calc(100% - 70px);
+}
+
+.show-sidebar #page-content-wrapper {
+  width: calc(100% - 70px);
+}
+
+.sidebar-heading {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.list-group-item {
+  border: none;
+  border-radius: 0;
+}
+
+/* Estilos do Botão de Toggle */
+#sidebarToggle {
+  margin-right: 15px;
+}
+
+/* Estilos do Conteúdo da Página */
+.container-fluid {
+  padding: 15px;
+}
